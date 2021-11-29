@@ -1,0 +1,1050 @@
+[2021-11-28 21:54:51] local.ERROR: syntax error, unexpected '/', expecting ';' or ',' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '/', expecting ';' or ',' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:16)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:55:02] local.ERROR: syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting ';' or ',' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting ';' or ',' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:18)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:55:23] local.ERROR: syntax error, unexpected 'Route' (T_STRING), expecting ';' or ',' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected 'Route' (T_STRING), expecting ';' or ',' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:20)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:55:23] local.ERROR: syntax error, unexpected 'Route' (T_STRING), expecting ';' or ',' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected 'Route' (T_STRING), expecting ';' or ',' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:20)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:55:23] local.ERROR: syntax error, unexpected 'Route' (T_STRING), expecting ';' or ',' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected 'Route' (T_STRING), expecting ';' or ',' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:20)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:55:24] local.ERROR: syntax error, unexpected 'Route' (T_STRING), expecting ';' or ',' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected 'Route' (T_STRING), expecting ';' or ',' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:20)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:58:28] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:25)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:58:34] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:25)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:58:39] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:25)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:58:53] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:25)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:59:07] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:25)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:59:23] local.ERROR: syntax error, unexpected ')', expecting '{' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected ')', expecting '{' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:24)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:59:23] local.ERROR: syntax error, unexpected ')', expecting '{' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected ')', expecting '{' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:24)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:59:27] local.ERROR: syntax error, unexpected ')', expecting '{' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected ')', expecting '{' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:24)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:59:39] local.ERROR: syntax error, unexpected end of file {"exception":"[object] (ParseError(code: 0): syntax error, unexpected end of file at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:27)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:59:45] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:26)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 21:59:52] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:26)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:00:09] local.ERROR: syntax error, unexpected ')' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected ')' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:25)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:00:23] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:26)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:00:23] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:26)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:00:24] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:26)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:00:30] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:26)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:00:57] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:26)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:01:07] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:27)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:01:23] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:27)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:01:23] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:27)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:02:23] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:27)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:02:23] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:27)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:02:25] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:27)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:02:51] local.ERROR: syntax error, unexpected '}' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:27)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:30:24] local.INFO: Broadcasting [message] on channels [chat] with payload:
+{
+    "username": "aaa",
+    "message": "aaa",
+    "socket": null
+}  
+[2021-11-28 22:30:25] local.INFO: Broadcasting [message] on channels [chat] with payload:
+{
+    "username": "aaa",
+    "message": "aaa",
+    "socket": null
+}  
+[2021-11-28 22:30:26] local.INFO: Broadcasting [message] on channels [chat] with payload:
+{
+    "username": "aaa",
+    "message": "aaa",
+    "socket": null
+}  
+[2021-11-28 22:30:26] local.INFO: Broadcasting [message] on channels [chat] with payload:
+{
+    "username": "aaa",
+    "message": "aaa",
+    "socket": null
+}  
+[2021-11-28 22:30:27] local.INFO: Broadcasting [message] on channels [chat] with payload:
+{
+    "username": "aaa",
+    "message": "aaa",
+    "socket": null
+}  
+[2021-11-28 22:31:23] local.ERROR: syntax error, unexpected '}', expecting ';' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}', expecting ';' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:31)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:31:23] local.ERROR: syntax error, unexpected '}', expecting ';' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}', expecting ';' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:31)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:31:26] local.ERROR: syntax error, unexpected '}', expecting ';' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}', expecting ';' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:31)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
+[2021-11-28 22:31:37] local.ERROR: syntax error, unexpected '}', expecting ';' {"exception":"[object] (ParseError(code: 0): syntax error, unexpected '}', expecting ';' at C:\\xampp\\htdocs\ealtime-chat\outes\\web.php:31)
+[stacktrace]
+#0 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(425): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(382): Illuminate\\Routing\\Router->loadRoutes('C:\\\\xampp\\\\htdocs...')
+#2 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(161): Illuminate\\Routing\\Router->group(Array, 'C:\\\\xampp\\\\htdocs...')
+#3 C:\\xampp\\htdocs\ealtime-chat\\app\\Providers\\RouteServiceProvider.php(48): Illuminate\\Routing\\RouteRegistrar->group('C:\\\\xampp\\\\htdocs...')
+#4 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): App\\Providers\\RouteServiceProvider->App\\Providers\\{closure}()
+#5 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#7 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#8 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#9 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(120): Illuminate\\Container\\Container->call(Object(Closure))
+#10 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(45): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->Illuminate\\Foundation\\Support\\Providers\\{closure}()
+#12 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#13 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#14 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Object(Closure), Object(Closure))
+#15 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Object(Closure), Array, NULL)
+#16 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(119): Illuminate\\Container\\Container->call(Object(Closure))
+#17 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(917): Illuminate\\Support\\ServiceProvider->callBootedCallbacks()
+#18 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(895): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 24)
+#20 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(896): array_walk(Array, Object(Closure))
+#21 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 C:\\xampp\\htdocs\ealtime-chat\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
